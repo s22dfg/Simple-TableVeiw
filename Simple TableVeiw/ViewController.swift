@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var myTableView: UITableView!
+    
     var animals = ["고양이", "원숭이", "강아지", "돼지", "햄스터"]
+    var country = ["한국", "태국", "미국", "영국", "아프리카"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +34,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let identifier = "RE"
         let cell = myTableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
+        
+        let myImage = UIImage(named:"\(indexPath.row+1).png")
+        cell.imageView?.image = myImage
+        
         cell.textLabel?.text = animals[indexPath.row]
+        cell.detailTextLabel?.text = country[indexPath.row]
         
         return cell
     }
