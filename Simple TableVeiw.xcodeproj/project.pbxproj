@@ -48,7 +48,7 @@
 		248BDCDF209958BB006875A7 = {
 			isa = PBXGroup;
 			children = (
-				248BDCEA209958BB006875A7 /* Simple TableVeiw */,
+				248BDCEA209958BB006875A7 /* SimpleTableVeiw03 */,
 				248BDCE9209958BB006875A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		248BDCEA209958BB006875A7 /* Simple TableVeiw */ = {
+		248BDCEA209958BB006875A7 /* SimpleTableVeiw03 */ = {
 			isa = PBXGroup;
 			children = (
 				248BDD0920996D38006875A7 /* 1.png */,
@@ -76,7 +76,7 @@
 				248BDCF4209958BB006875A7 /* LaunchScreen.storyboard */,
 				248BDCF7209958BB006875A7 /* Info.plist */,
 			);
-			path = "Simple TableVeiw";
+			path = SimpleTableVeiw03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

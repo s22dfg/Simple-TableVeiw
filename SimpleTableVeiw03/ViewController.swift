@@ -12,8 +12,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var myTableView: UITableView!
     
-    var animals = ["고양이", "원숭이", "강아지", "돼지", "햄스터"]
-    var country = ["한국", "태국", "미국", "영국", "아프리카"]
+    var animals = ["cat", "Monkey", "dog", "tiger", "cow"]
+    var country = ["Korea","China","Africa","Japen","Aus"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
